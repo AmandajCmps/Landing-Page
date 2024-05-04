@@ -1,0 +1,40 @@
+/* Estilos para as páginas das redes sociais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .qr-code {
+    text-align: center;
+    margin: 0 20px; /* Espaçamento entre os códigos QR */
+  }
+  
+  .qr-code h2 {
+    margin-top: 0; /* Remove o espaçamento superior padrão */
+  }
+  
+  .qr-code img {
+    max-width: 200px; /* Tamanho máximo dos códigos QR */
+    height: auto;
+  }
+  
+  /* Estilos para as páginas das redes sociais em dispositivos móveis */
+  @media (max-width: 768px) {
+    .qr-code img {
+      max-width: 150px; /* Tamanho máximo dos códigos QR em dispositivos móveis */
+    }
+  }
+  

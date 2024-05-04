@@ -1,0 +1,91 @@
+/* Estilos para a página principal */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dadada; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+  }
+  
+  header {
+    background-color: #c0b8cf; /* Cor principal (lilás) */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    background-color: #a79eb8; /* Cor principal (lilás) */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  /* Botão de scroll suave */
+  #scroll-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #5a5169; /* Cor principal (lilás) */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #scroll-button:hover {
+    background-color: #6c32a8; /* Cor mais escura */
+  }
+  
+  /* Link para as redes sociais */
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #contact ul li a {
+    text-decoration: none;
+    color: #333; /* Cor do texto */
+    padding: 5px 10px;
+    border: 1px solid #333; /* Cor do texto */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  #contact ul li a:hover {
+    background-color: #8a4dff; /* Cor principal (lilás) */
+    color: #fff;
+  }
+  
+  /* Estilos para a imagem do perfil */
+  .profile-picture {
+    display: block;
+    margin: 0 auto;
+    width: 200px; /* Tamanho da imagem */
+    height: 200px;
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    overflow: hidden; /* Oculta as partes da imagem que ultrapassam o círculo */
+  }
+  
+  /* Estilos para a imagem do perfil em dispositivos móveis */
+  @media (max-width: 768px) {
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  
